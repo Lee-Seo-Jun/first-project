@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+    main{
+    position: relative;
+
+
+    }
+    .main_wrap {
+      position: relative;
+      height: 600px;
+      margin: 0 100px;
+    }
+    
+    .main_wrap:before {
+      content: ' ';
+      display: block;
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      opacity: 0.4;
+      background-image: url(images/background-image.jpeg);
+      background-repeat: no-repeat;
+      background-position: 50% 0;
+      background-size: cover;
+    }
+    
+
+
+    caption{
+      font-family:sans-serif;
+      font-weight:bolder;
+      font-size:20px;
+      height: 50px;
+      
+    }
+
+    table {
+      margin: 0 auto;
+      text-align: center;
+      width: 80%; height: 100%;
+      border:2px solid;
+      border-spacing:0px;
+      border-collapse:collapse;
+      color: black;
+      font-weight: bold;
+    }
+    table td{
+      text-align:center;
+      padding: 10px;
+      border:1px solid;
+    }
+
+    table td:nth-child(odd){
+      font-weight: bold;
+    }
+
+    table td:nth-child(even){
+      font-family:Georgia, 'Times New Roman', Times, serif;
+    }
+
+    tfoot td{
+      padding-top:20px;
+    }
+
+  </style>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profile</title>
+</head>
+<body>
+    <div class = "main_wrap">
+      <div class = "inner_wrap">
+      <table>
+        <caption>Profile</caption>
+    
+          <tbody>
+          
+            <tr>
+              <td>name</td>
+              <td>Lee Seo Jun</td>
+              <td>Major</td>
+              <td>Software engineering</td>
+            </tr>
+      
+            <tr>
+              <td>vision</td>
+              <td>Front-end Developer</td>
+              <td>Age</td>
+              <td>29</td>
+            </tr>
+      
+      
+            <tr>
+              <td>Colleage</td>
+              <td>CUK</td>
+              <td>Language Skills</td>
+              <td>Korean(Native), English</td>
+            </tr>
+      
+            <tr>
+              <td>Work History</td>
+              <td colspan="3">Worked at Data Processing Department</td>
+            </tr>
+            
+            <tr>
+              <td>Certificates</td>
+              <td colspan="3">##기사, ##활용, ##자격증</td>
+            </tr>
+    
+            <tr>
+              <td colspan="2">Strength Point</td>
+              <td colspan="2">I'm very Positive!</td>
+            </tr>
+    
+            <tr>
+              <td colspan="2">Weak Point</td>
+              <td colspan="2">Sometimes I skip a meal &#128517;</td>
+            </tr>
+    
+    
+          </tbody> 
+    
+          <tfoot>
+            <tr>
+              <td colspan = "4"></td>
+            </tr>
+          </tfoot>
+        </table>
+      </div>
+    </div>
+
+</body>
+</html>

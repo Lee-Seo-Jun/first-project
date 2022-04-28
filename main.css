@@ -1,0 +1,134 @@
+@charset "utf-8";
+
+*{ padding: 0; margin: 0; }
+
+@keyframes opacity_change{
+  from{ opacity: 0;}
+  50%{ opacity: 0.5;}
+  to{ opacity: 1.0;}
+}
+* {
+
+  
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+
+header{
+  height: 115px;
+}
+
+.nav_bar{
+  font-family: 'Source Serif Pro', serif;
+  float:left;
+  display: inline;
+  width: 100%;
+  align-items:center;
+  padding: 12px;
+  background-color: #3c7ad1;
+  position: relative;
+  height: 100%;
+  box-sizing: border-box;
+
+}
+
+.nav_menu a{
+  display:inline-block;
+  text-decoration: none;
+  color: black;
+
+}
+
+.h_letter{
+  display: block;
+  font-family:cursive;
+  font-size: 20px;
+  width: 100%;
+  text-align:center;
+}
+
+
+
+.nav_menu{
+  list-style: none;
+  text-align: center;
+  box-sizing: border-box;
+  margin: 0;
+  margin-top: 25px;
+}
+
+
+.nav_menu > a{
+  padding-left: 0;
+  display: inline-block;
+  padding: 10px 15px 0px;
+  margin: 0 8px;
+  width: 100px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  height:40px;
+}
+
+
+@keyframes color_change{
+  from{ background-color: rgb(53, 172, 132); opacity:0.8;}
+  50%{ background-color: rgb(105, 201, 169); opacity: 1.0;}
+  100%{ background-color: rgb(41, 161, 121); opacity: 0.8;}
+}
+.nav_menu > a:hover{
+  animation-name: color_change;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+
+
+main{
+  position:relative;
+  width: 1024px; height: 768px;
+  margin: 0 auto;
+  background-image: url(images/frm04.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  
+}
+
+.frm_inside{
+  position:absolute;
+  border:none;
+  padding-top:70px;
+  width:100%; height: 650px;
+}
+
+footer{
+  width: 100%; height: 210px;
+  min-width: 1180px;
+
+}
+
+.sitemap{
+  width: 100%; height: 50px;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.f_top{
+  width: 100%; height: 50px;
+  border-bottom: 1px solid #ccc;
+  box-sizing: border-box;
+  background-color: #ededed;
+}
+
+
+.f_bottom{
+  width: 100%; height: 110px;
+  background-color: #ededed;
+}
+
+
+
+
+

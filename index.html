@@ -1,0 +1,68 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <!-- //한글폰트 사용을 위한 링크 -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Black+And+White+Picture&family=Black+Han+Sans&family=Cute+Font&family=Do+Hyeon&family=Dokdo&family=East+Sea+Dokdo&family=Gaegu&family=Gamja+Flower&family=Gothic+A1&family=Gugi&family=Hi+Melody&family=Jua&family=Kirang+Haerang&family=Nanum+Brush+Script&family=Nanum+Gothic&family=Nanum+Gothic+Coding&family=Nanum+Myeongjo&family=Nanum+Pen+Script&family=Noto+Sans+KR&family=Noto+Serif+KR&family=Poor+Story&family=Single+Day&family=Song+Myung&family=Stylish&family=Sunflower:wght@300&family=Yeon+Sung&display=swap" rel="stylesheet">
+    <title>Link page</title>
+    <style>
+      h1{
+        display:block;
+        text-align: center;
+      }
+      p{
+
+        position:relative;
+        top:10px;
+        text-align: center;
+        font-family: 'Stylish', sans-serif;
+      }
+      input{
+        position: absolute;
+        top: 170px;
+        left: 40%;
+        text-decoration: none;
+        font-style: oblique;
+        font-weight: bold;
+        width: 300px;
+        height: 30px;
+        padding: 5px 3px;
+        margin-top: 20px;
+        text-align:center;
+        background-color: rgb(243, 219, 83);
+        color:rgb(61, 50, 50);       
+      }
+
+      @keyframes change_color{
+          0% {background-color: rgb(218, 204, 126)}
+          50%{background-color: #92bbe9}
+          100% {background-color: rgb(238, 224, 145)}
+        }
+      
+
+
+      input:hover{
+        cursor: pointer;
+        animation: change_color 2s linear infinite;
+      }
+
+      hr{
+        opacity: 0.2;
+        border:0;
+        background-image: linear-gradient(to right,rgba(97, 216, 133, 0), rgba(52, 185, 123, 0.75), rgba(79, 230, 129, 0));
+      }
+
+    </style>
+  </head>
+
+    <body>
+      <h1>Thanks for visiting my webpage !</h1>
+      <hr size = "6">
+        <p id = "describe">안녕하세요 교수님!</p>
+        
+        <P>아직 많이 어설프지만 시간 가는 줄 모르고 즐겁게 만들어 보았습니다 &#128513;<br>
+        </P>
+      <a href="main.html" title = "지난 강의에서 배운 hover를 활용해서 만들어 보았습니다"><input type = button; value = "이 버튼을 클릭하시면 실습 자료 페이지로 이동합니다."></a>
+    </body>
+
+</html>

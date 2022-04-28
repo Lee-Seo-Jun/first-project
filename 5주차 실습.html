@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <style>
+
+      body{
+        margin: 0 auto;
+        transform: scale(0.7);
+        overflow: hidden;
+      }
+
+
+      .describe{
+        position:absolute;
+        font-family: Arial, Helvetica;
+        font-size: 17px;
+        top: 10%;
+        left:10%;
+      }
+
+      .teaser_video{
+        height:300px;
+        width:100%;
+        top: 0px;
+        z-index:0;
+        object-fit: cover;
+      }
+
+
+      .phone_pictures{
+        width: 200px;
+        height: 200px;
+      }
+
+      .phone_list{
+        position: absolute;
+        top: 400px;
+        width: 90%;
+        text-align: center;
+      }
+
+      .phone_images{
+        position:relative;
+        left:50px;
+        
+      }
+
+
+      .price{
+        font-style:oblique;
+        font-family:arial;
+        position:relative;
+        top:5px;
+      }
+
+      .link_button td{
+        padding: 20px 0 100px 0;
+      }
+
+
+      .phone_description td{
+        padding: 15px 0 10px 0;
+      }
+
+    </style>
+    <meta charset = utf-8>
+    <title>5주차 실습_Latest Nokia Phones</title>
+  </head>
+  <body>
+    <main>
+      <video autoplay muted loop class ="teaser_video">
+        <source src="images/nokia_C21-DTC-VIDEO-desktop.mp4" type ="video/mp4"> 
+      </video>
+
+      <div class = "describe">
+        <h1>Nokia XR20</h1>
+        <p>World Class footballers Roberto Carlos and Lisa Zimouche tried out 
+        <br>the Nokia XR20 to see how durable our latest device really is.</p>
+      </div>
+
+
+
+            
+      <table class = "phone_list">
+
+
+        <tr class = "phone_images">
+          <td><img src="images/nokia-G21-nordic_blue-front-int.jpg" class = "phone_pictures" alt="first_model"></td>
+                
+          <td><img src="images/nokia-X10-forest_green-front-int.jpg" class = "phone_pictures" alt="second_model"></td>
+          <td><img src="images/nokia-X20-midnight_sun-front-int.jpg" class = "phone_pictures" alt="third_model"></td>
+        </tr> 
+
+
+        <tr class = "phone_description">
+          <td><span><b>ONLINE DEALS</b></span><br>
+            Biggest selection. Best value. <br>
+            Prices starting at under $1.</td>
+          <td><b>Customer Service Award</b><br>
+            "Highest Ranked Customer Service Performance 
+            <br>among Full Service Wireless Providers"
+          </td>
+          <td><b>Customer Service Award</b><br>
+            Add a new phone line today with<br>
+            prices starting at FREE.</td>
+        </tr>
+            
+
+        <tr class = "price">
+          <td>2,000,000 ₩</td>
+          <td>1,800,000 ₩</td>
+          <td>1,600,000 ₩</td>
+        </tr>
+            
+            
+        <tfoot class = "link_button">
+          <td><a id = "first_shop_link" href="https://www.nokia.com/phones/en_int/nokia-csku=286716717"><input type="button"  value = "Shop Now"></td>
+          <td><a id = "second_shop_link" href="https://www.nokia.com/phones/en_int/nokia-gsku=719901183451"><input type="button"  value = "Shop Now"></a></td>
+          <td><a id = "third_shop_link" href="https://www.nokia.com/phones/en_int/nokia-gsku=719901183581"><input type="button"  value = "Shop Now"></a></td>
+        </tfoot>
+      </table>
+    </main>
+  </body>
+</html>
